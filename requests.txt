@@ -1,0 +1,11 @@
+Examples of used requests:
+GET: curl http://localhost:3000
+POST: curl -H "Content-Type: application/json" \
+-X POST -d "{\"param1\":\"data1\", \"param2\":\"data2\"}" \
+http://localhost:3000
+PUT: curl -H "Content-Type: application/json" \
+-X PUT -d "{\"param1\":\"data3\", \"param2\":\"data4\"}" \
+http://localhost:3000
+PATCH: curl -H "Content-Type: application/json" \
+-X PATCH -d "{\"param3\":\"One\", \"param2\":\"New_Two\"}" \
+http://localhost:3000
